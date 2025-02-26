@@ -1,0 +1,26 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+    
+    .cabecalho{
+    background-color:#EFB2A5;
+    display: flex; /* um do lado do outro */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+    & .nav{display: flex;
+    gap: 30px;
+    
+    & a{color: black;
+        text-decoration: none;
+        font-size: 24px
+    
+    }
+    
+    }
+    
+    }
